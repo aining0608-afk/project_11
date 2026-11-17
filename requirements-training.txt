@@ -1,0 +1,8 @@
+# Install a suitable PyTorch/torchvision build for your CPU or CUDA environment first.
+numpy
+opencv-python-headless
+matplotlib
+pillow
+torch
+torchvision
+onnx

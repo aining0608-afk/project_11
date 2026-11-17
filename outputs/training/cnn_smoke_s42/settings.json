@@ -1,0 +1,21 @@
+{
+  "mode": "train",
+  "run": "cnn_smoke_s42",
+  "epochs": 1,
+  "batch": 16,
+  "lr": 0.001,
+  "seed": 42,
+  "device": "cuda",
+  "classes": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+  ],
+  "torch_version": "2.12.1+cu130",
+  "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

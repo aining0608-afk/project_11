@@ -1,0 +1,55 @@
+{
+  "val_loss": 2.3146341430897617,
+  "val_acc": 0.4489795918367347,
+  "samples": 98,
+  "classes": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+  ],
+  "checkpoint_epoch": 14,
+  "clahe_clip_limit": 2.0,
+  "clahe_tile_grid_size": [
+    4,
+    4
+  ],
+  "per_class": {
+    "P01": {
+      "correct": 2,
+      "total": 11
+    },
+    "P02": {
+      "correct": 0,
+      "total": 15
+    },
+    "P03": {
+      "correct": 0,
+      "total": 12
+    },
+    "P04": {
+      "correct": 12,
+      "total": 12
+    },
+    "P05": {
+      "correct": 12,
+      "total": 12
+    },
+    "P06": {
+      "correct": 1,
+      "total": 11
+    },
+    "P07": {
+      "correct": 14,
+      "total": 14
+    },
+    "P08": {
+      "correct": 3,
+      "total": 11
+    }
+  }
+}

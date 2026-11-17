@@ -1,0 +1,50 @@
+{
+  "val_loss": 0.7034172438351172,
+  "val_acc": 0.7959183673469388,
+  "samples": 98,
+  "classes": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08"
+  ],
+  "checkpoint_epoch": 15,
+  "per_class": {
+    "P01": {
+      "correct": 2,
+      "total": 11
+    },
+    "P02": {
+      "correct": 15,
+      "total": 15
+    },
+    "P03": {
+      "correct": 11,
+      "total": 12
+    },
+    "P04": {
+      "correct": 12,
+      "total": 12
+    },
+    "P05": {
+      "correct": 12,
+      "total": 12
+    },
+    "P06": {
+      "correct": 1,
+      "total": 11
+    },
+    "P07": {
+      "correct": 14,
+      "total": 14
+    },
+    "P08": {
+      "correct": 11,
+      "total": 11
+    }
+  }
+}

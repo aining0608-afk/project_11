@@ -1,0 +1,45 @@
+# Local environments and caches
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Participant images, video, embeddings and model binaries stay local
+/data/
+/work/
+/models/
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.npz
+*.npy
+*.pt
+*.pth
+*.onnx
+*.zip
+*.7z
+
+# Publish aggregate experiment evidence only
+/outputs/*
+!/outputs/training/
+/outputs/training/**
+!/outputs/training/**/
+!/outputs/training/**/history.csv
+!/outputs/training/**/*metrics.json
+!/outputs/training/**/*confusion_matrix.csv
+!/outputs/training/**/settings.json
+!/outputs/training/**/curves.png
+/outputs/training/cnn_digiface_s42/confusion_matrix.csv
